@@ -64,6 +64,7 @@ header {
 header div {
   border-left: 1px dotted #333;
   margin: 0 auto;
+  position: relative;
   width: 980px;
 }
 
@@ -103,7 +104,7 @@ header nav,
 }
 
 header nav {
-  position: relative;
+  position: absolute;
   top: 0;
   right: 0;
 }
