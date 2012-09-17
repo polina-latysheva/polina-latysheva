@@ -90,16 +90,22 @@ h1,
 }
 
 header p,
-nav,
+header nav,
 nav li,
 .sl-slide p,
 .skills_content li {
   display: inline-block;
 }
 
-nav,
+header nav,
 .sl-slide p {
   float: right;
+}
+
+header nav {
+  position: relative;
+  top: 0;
+  right: 0;
 }
 
 nav li {
