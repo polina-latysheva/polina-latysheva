@@ -4,17 +4,15 @@
     <meta charset="utf-8">
 
     <title>Polina Latysheva Resume</title>
-    <meta name="description" content="Here is my the portfolio of Polina Latysheva a front end developer at Shoedazzle">
+    <meta name="description" content="Polina Latysheva a Front end developer at Shoedazzle">
     <meta name="author" content="Polina Latysheva">
     <meta name="viewport" content="width=device-width">
 
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="stylesheet" media="all" href="stylesheets/style.css">
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/slide.css">
-
     <!--[if lt IE 9]>
-    <script type="text/javascript" src="javascripts/modernizr.custom.04022.js"></script>
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
     <![endif]-->
     <!--[if lt IE 8]>
     <style>.ie-note{display:block;}</style>
@@ -29,8 +27,10 @@
   <body>
     <header>
       <div>
-        <p>Polina<b>Latysheva</b></p>
-        <p><b>Frontend</b>developer</p>
+      <aside itemscope itemtype="http://schema.org/Person">
+        <p itemprop="givenName">Polina<b itemprop="familyName">Latysheva</b><a href="mailto:polina.latysheva@gmail.com" itemprop="email">say hello</a></p>
+        <p itemprop="jobTitle"><b>Frontend</b>developer</p>
+      </aside>
 
         <nav class="navigation">
           <ul>
@@ -38,113 +38,95 @@
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#work">Work</a></li>
-            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
     </header>
 
+
     <div id="home" class="home_content">
       <section>
-        <hgroup>
-          <h1>Today's special</h1>
-          <h2>What I do &amp;&nbsp;how I do it</h2>
-        </hgroup>
-
-        <article>
-          <p>01</p>
-          <h3>Prep time<b>4 hours</b></h3>
-          <h3>Needed</h3>
-          <ul>
-            <li><sup>2</sup>/<sub>4</sub> the real fan of html</li>
-            <li><sup>1</sup>/<sub>4</sub> css lover <span class="heart"></span></li>
-            <li><sup>1</sup>/<sub>8</sub> creative &amp; talented</li>
-            <li><sup>1</sup>/<sub>8</sub> curious and <strong>super</strong> humble</li>
-          </ul>
-        </article>
-
-        <article class="total">
-          <p>02</p>
-          <h3>Total time<b>18 hours</b></h3>
-          <h3>Values</h3>
-          <h3>Attributes</h3>
-          <ul>
-            <li>Ideas</li>
-            <li>Free time</li>
-            <li>Green tee</li>
-            <li>Music</li>
-          </ul>
-
-          <ul>
-            <li>Simple</li>
-            <li>Cool</li>
-            <li>Clean</li>
-            <li>Lovely</li>
-          </ul>
-        </article>
-
-        <article>
-          <p>03</p>
-          <h3>Enjoy !<b>Oven ready</b></h3>
-          <h3></h3>
-        </article>
+        <h2>I'm</h2>
+        <h1>Hello.</h1>
+        <ul>
+          <li>The fan of html</li>
+          <li>and css lover</li>
+          <li>Curios, talented</li>
+          <li>&amp; super humble</li>
+        </ul>
+        <p>Passionate. I really love what I do</p>
+        <p>Enthusiastic. I want to learn</p>
+        <p>Purposeful. I have the right attitude</p>
       </section>
     </div>
 
     <div id="about" class="about_content">
-      <section id="sl-slider" class="outer">
+      <section id="slideshow">
+
         <h1>About</h1>
+        <input checked="" type="radio" name="slideshow" id="slide1">
+        <input type="radio" name="slideshow" id="slide2">
+        <input type="radio" name="slideshow" id="slide3">
 
-        <div class="sl-slide slide_what" data-orientation="horizontal" data-cut1-rotation="-25" data-cut2-rotation="-25" data-cut1-scale="2" data-cut2-scale="2">
-          <article>
-            <ul class="with_love">
-              <li class="left7"></li>
-              <li class="left6"></li>
-              <li class="left5"></li>
-              <li class="left4"></li>
-              <li class="left3"></li>
-              <li class="left2"></li>
-              <li class="left1"></li>
-              <li class="zero"></li>
-              <li class="right1"></li>
-              <li class="right2"></li>
-              <li class="right3"></li>
-              <li class="right4"></li>
-              <li class="right5"></li>
-              <li class="right6"></li>
-              <li class="right7"></li>
-            </ul>
-            
-            <h3>What I love</h3>
-            <p>I love creating semantic code with perfect harmony of pixels</p>
-            <p>Sometimes I make stuff  for fun. But always with a huge attention to every pixel</p>
-            <p class="note">I love what I do and I am constantly working to improve my skills</p>
-          </article>
+
+        <div class="slides">
+          <div class="wrap">
+            <div class="inner">
+              <article>
+                <ul class="big_heart">
+                  <li class="left7"></li>
+                  <li class="left6"></li>
+                  <li class="left5"></li>
+                  <li class="left4"></li>
+                  <li class="left3"></li>
+                  <li class="left2"></li>
+                  <li class="left1"></li>
+                  <li class="zero"></li>
+                  <li class="right1"></li>
+                  <li class="right2"></li>
+                  <li class="right3"></li>
+                  <li class="right4"></li>
+                  <li class="right5"></li>
+                  <li class="right6"></li>
+                  <li class="right7"></li>
+                </ul>
+
+                <h3>What I love</h3>
+                <p>I love creating semantic code with perfect harmony of pixels</p>
+                <p>Sometimes I make stuff  for fun. But always with a huge attention to every pixel</p>
+                <p class="note">I love what I do and I am constantly working to improve my skills</p>
+              </article>
+
+              <article>
+                <div class="figure2" data-text="How">
+                  <div class="fig1"></div>
+                  <div class="fig2"></div>
+                </div>
+
+                <h3>I do it</h3>
+                <p>I am focused on hand writing code, starting from a solid html base, following with clean css and a bit of javascript to bring things to life</p>
+                <p>I keep things simple and easy to use with understanding of usability and ability to test and debug code for cross browser/platform compatibility</p>
+              </article>
+
+              <article>
+                <div class="figure" data-text="Why">
+                  <div class="fig1"></div>
+                  <div class="fig2"></div>
+                </div>
+
+                <h3>I do it</h3>
+                <p>I am not afraid to work hard, learn from other people, share my knowledge, try new things, smile a lot and be better than yesterday</p>
+                <p>I am always looking for new challenges and expanding my knowledge base</p>
+                <p class="note">I want to be a team player and work with people that share my passion and dedication to work</p>
+              </article>
+            </div>
+          </div>
         </div>
 
-        <div class="sl-slide slide_how sl-slide-dark" data-orientation="vertical" data-cut1-rotation="10" data-cut2-rotation="-15" data-cut1-scale="1.5" data-cut2-scale="1.5">
-          <article>
-            <div class="figure2" data-text="How">
-              <div class="fig1"></div>
-              <div class="fig2"></div>
-            </div>
-            <h3>I do it</h3>
-            <p>I am focused on hand writing code, starting from a solid html base, following with clean css and a bit of javascript to bring things to life</p>
-            <p>I keep things simple and easy to use with understanding of usability and ability to test and debug code for cross browser/platform compatibility</p>
-          </article>
-        </div>
-
-        <div class="sl-slide slide_why sl-slide-color-1" data-orientation="horizontal" data-cut1-rotation="3" data-cut2-rotation="3" data-cut1-scale="2" data-cut2-scale="1">
-          <article>
-            <div class="figure" data-text="Why">
-              <div class="fig1"></div>
-              <div class="fig2"></div>
-            </div>
-            <h3>I do it</h3>
-            <p>I am not afraid to work hard, learn from other people, share my knowledge, try new things, smile a lot and be better than yesterday</p>
-            <p>I am always looking for new challenges and expanding my knowledge base</p>
-            <p class="note">I want to be a team player and work with people that share my passion and dedication to work</p>
-          </article>
+        <div class="controls">
+          <label for="slide1">1</label>
+          <label for="slide2">2</label>
+          <label for="slide3">3</label>
         </div>
       </section>
     </div>
@@ -173,6 +155,7 @@
         <div id="experience">
           <div class="points step1">
             <span>2002</span>
+
             <article>
               <h3>Brest State Technical University</h3>
               <h5>2002 &ndash; 2007</h5>
@@ -184,6 +167,7 @@
 
           <div class="points step2">
             <span>2007</span>
+
             <article>
               <h3>Charity Society</h3>
               <h4>Head of Information Department</h4>
@@ -196,6 +180,7 @@
 
           <div class="points step3">
             <span>2008</span>
+
             <article>
               <h3>YLM Conseil</h3>
               <h4>Front-end developer (freelance)</h4>
@@ -206,6 +191,7 @@
 
           <div class="points step4">
             <span>2009</span>
+
             <article>
               <h3>CIANE Technology</h3>
               <h4>Front-end developer (freelance)</h4>
@@ -216,6 +202,7 @@
 
           <div class="points step5">
             <span>2010</span>
+
             <article>
               <h3>Altoros Development</h3>
               <h4>Front-end developer (at Shoedazzle)</h4>
@@ -228,34 +215,24 @@
           <div class="line"></div>
           <div class="current_point"></div>
         </div>
+
+        <ul class="example">
+          <li>Some samples of my work</li>
+          <li><a href="http:www.shoedazzle.com" target="_blank">Shoedazzle</a></li>
+          <li><a href="http://summer.lvee.org/en/main" target="_blank">Lvee</a></li>
+          <li><a href="http://karaokesolo.by/" target="_blank">KaraokeSolo</a></li>
+          <li><a href="http://www.couponbrothers.com/" target="_blank">CouponBrothers</a></li>
+          <li><a href="http://bagazh.by/groups/index/backpacks" target="_blank">Bagazh</a></li>
+          <li><a href="http://li187-181.members.linode.com/" target="_blank">GOATrans</a></li>
+        </ul>
       </section>
     </div>
-
-    <div id="contact" class="contact_content">
-      <section class="content">
-        <h1>Contact</h1>
-        <h2>I just wanted to say thanks to you, for reading this. Thanks.</h2>
-        <a href="mailto:polina.latysheva@gmail.com">polina.latysheva@gmail.com</a>
-      </section>
-    </div>
-
-    <footer></footer>
 
     <!-- <script type="text/javascript" src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script> -->
     <!-- <script>window.html5 || document.write('<script src="js/libs/html5.js"><\\\\\\\\/script>')</script> -->
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-
     <script type="text/javascript" src="javascripts/jquery.easing.1.3.js"></script>
-
-		<script type="text/javascript" src="javascripts/jquery.ba-cond.min.js"></script>
-		<script type="text/javascript" src="javascripts/jquery.transit.min.js"></script>
-		<script type="text/javascript" src="javascripts/jquery.slitslider.js"></script>
     <script type="text/javascript" src="javascripts/script.js"></script>
-		<script type="text/javascript">
-			$(function() {
-          $( '#sl-slider' ).slitslider();
-      });
-		</script>
 
   </body>
 </html>

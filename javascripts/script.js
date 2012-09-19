@@ -1,8 +1,8 @@
 $(document).ready(function() {
 
-  // Scroll to section
-  var section = 680;
+      var section = $(window).height();
 
+      // Scroll to section
       $('nav a').bind('click',function(e) {
         var $link = $(this);
 
@@ -10,7 +10,7 @@ $(document).ready(function() {
         $(this).parent().addClass("current");
 
         $('html, body').stop().animate({
-          scrollTop: $($link.attr('href')).offset().top 
+          scrollTop: $($link.attr('href')).offset().top
         }, 1500,'easeInOutExpo');
 
         if ($(this).attr('href')  == '#skills') {
@@ -18,20 +18,6 @@ $(document).ready(function() {
         }
         else {
           $('#skills').removeClass('anim');
-        }
-
-        if (($(this).attr('href')  == '#about') || ($(this).attr('href') == '#work')) {
-          $('header').addClass('alternate');
-        }
-        else {
-          $('header').removeClass('alternate');
-        }
-        
-        if ($(this).attr('href')  == '#contact') {
-          $('header').addClass('common');
-        }
-        else {
-          $('header').removeClass('common');
         }
 
         e.preventDefault();
