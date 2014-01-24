@@ -5,7 +5,8 @@ html {
 }
 
 body {
-  background: #f2f0ed url(../img/pl.png) no-repeat 0 -100px;
+  /* background: #f2f0ed url(../img/pl.png) no-repeat 0 -100px; */
+  background-color: #f2f0ed;
   color: #fff;
   font: normal 14px/1.4 Helvetica, Arial, sans-serif;
   overflow-y: hidden;
