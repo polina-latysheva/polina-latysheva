@@ -3,7 +3,7 @@ $(document).ready(function() {
       var section = $(window).height();
 
       // Scroll to section
-      $('nav a').bind('click',function(e) {
+      $('nav a').on('click',function(e) {
         var $link = $(this);
 
         $('nav .current').removeClass("current");
